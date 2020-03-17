@@ -1,9 +1,10 @@
 # Hover Block Animation
 
-###### Sandbox
+## Sandbox
+
 Animations on hover on blocks elements with background image - made with CSS3
 
-[Demo](http://www.theomesnil.com/demo/HoverBlockAnimation/) / [Direct Download](http://www.theomesnil.com/demo/HoverBlockAnimation/HoverBlockAnimation.zip)
+[Demo](https://www.theomesnil.com/demo/HoverBlockAnimation/) / [Direct Download](https://www.theomesnil.com/demo/HoverBlockAnimation/HoverBlockAnimation.zip)
 
 <img src="https://github.com/mesniltheo/HoverBlockAnimation/blob/master/og-img.jpg?raw=true">
 
@@ -12,14 +13,13 @@ Animations on hover on blocks elements with background image - made with CSS3
 1. Fork this repo
 2. Edit the `index.html` and `hover-block-animation.css`
 
-##### index.html
+### index.html
 
 ```html
 <section>
   <div class="title">Block | 1</div>
   <div class="block block-1">
-    <div class="block-image">
-    </div>
+    <div class="block-image"></div>
     <div class="block-text">
       <div class="block-text-center">
         <div>
@@ -31,7 +31,7 @@ Animations on hover on blocks elements with background image - made with CSS3
 </section>
 ```
 
-##### css/hover-block-animation.css
+### css/hover-block-animation.css
 
 ```css
 /***/
@@ -41,7 +41,7 @@ Animations on hover on blocks elements with background image - made with CSS3
   transition: transform 500ms;
 }
 .block-1:hover {
-  transform: scale(.95);
+  transform: scale(0.95);
   transition: transform 500ms;
 }
 .block-1 .block-image {
@@ -49,7 +49,11 @@ Animations on hover on blocks elements with background image - made with CSS3
 }
 .block-1 .block-text {
   height: 100px;
-  background: linear-gradient(to bottom, rgba(0,0,0,0) 0%,rgba(0,162,164,0.8) 100%);
+  background: linear-gradient(
+    to bottom,
+    rgba(0, 0, 0, 0) 0%,
+    rgba(0, 162, 164, 0.8) 100%
+  );
   transition: opacity 300ms;
   bottom: 0;
   top: auto;
@@ -89,8 +93,8 @@ And push to create a pull request
 
 Pictures from [unsplash](https://unsplash.com)
 
-## ![alt text](https://avatars2.githubusercontent.com/u/11488084?v=3&s=25 "theomesnil.com") About me
+## ![alt text](https://avatars2.githubusercontent.com/u/11488084?v=3&s=25 'theomesnil.com') About me
 
-Follow me on [Twitter](https://twitter.com/theomesnil) - [Github](https://github.com/mesniltheo) -  [Dribbble](https://dribbble.com/theomesnil)
+Follow me on [Twitter](https://twitter.com/theomesnil) - [Github](https://github.com/mesniltheo) - [Dribbble](https://dribbble.com/theomesnil)
 
-[© Théo Mesnil - 2016](http://www.theomesnil.com)
+[© Théo Mesnil - 2016](https://www.theomesnil.com)
