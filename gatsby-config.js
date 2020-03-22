@@ -42,7 +42,7 @@ module.exports = {
         fonts: [
           {
             family: `Baloo 2`,
-            variants: [`400`, `600`, `800`],
+            variants: [`400`, `600`],
           },
           {
             family: `PT Serif`,

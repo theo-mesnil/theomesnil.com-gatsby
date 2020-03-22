@@ -1,12 +1,13 @@
 import React from "react"
 import { Link as LinkGatsby } from "gatsby"
-import styled, { Box } from "@xstyled/styled-components"
+import styled from "@xstyled/styled-components"
 
 const LinkStyled = styled.a`
+  position: relative;
+  display: inline-flex;
   color: light.900;
   text-decoration: none;
   transition: medium;
-  position: relative;
 
   &::after {
     position: absolute;

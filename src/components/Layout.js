@@ -11,14 +11,13 @@ import { Seo } from "./Seo"
 const GlobalStyle = createGlobalStyle`
   ::selection {
     background-color: primary.500;
-    color: dark.900;
+    color: light.900;
   }
 
   body {
     background-color: dark.900;
     color: light.900;
     font-family: title;
-    font-weight: 300;
     font-size: 18;
     line-height: 1.4;
   }

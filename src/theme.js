@@ -5,12 +5,18 @@ export const theme = {
       900: "#FFF",
     },
     dark: {
-      500: "#12103D",
+      500: "#0e0e36",
       900: "#060617",
     },
     primary: {
       500: "#117FA8",
       900: "#0C5D7B",
+    },
+    sub: {
+      1: "#f6d186",
+      2: "#fbcffc",
+      3: "#cbe2b0",
+      4: "#f19292",
     },
   },
   fonts: {
@@ -20,7 +26,9 @@ export const theme = {
   fontWeights: {
     regular: "400",
     bold: "600",
-    black: "800",
+  },
+  radii: {
+    lg: 15,
   },
   breakpoints: {
     xs: 0,
