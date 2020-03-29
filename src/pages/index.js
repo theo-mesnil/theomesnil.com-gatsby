@@ -1,7 +1,7 @@
 import React from "react"
 import { Box } from "@xstyled/styled-components"
 
-import { Layout } from "../components/layout"
+import { Layout } from "../components/Layout"
 import { Title } from "../components/Title"
 import { Link } from "../components/Link"
 import { openSourceProjects } from "../data/open-source-project"
