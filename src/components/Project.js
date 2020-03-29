@@ -1,54 +1,56 @@
 import React from "react"
-import styled, { th, css, Box } from "@xstyled/styled-components"
+import styled, { Box } from "@xstyled/styled-components"
 
 import { StarIcon } from "./Icons"
 
-const ProjectStyled = styled(Box)(
-  ({ colorProject }) => css`
-    display: flex;
-    flex-direction: column;
-    color: light.900;
-    text-decoration: none;
-    border-radius: lg;
-    height: 150;
-    font-size: 16;
-    padding: md;
-    transition: medium;
-    background-color: rgba(255, 255, 255, 0.05);
+const Wrapper = styled(Box)`
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  padding: md;
+  color: light.900;
+  text-decoration: none;
+  border-radius: lg;
+  font-size: 16;
+  background-color: rgba(255, 255, 255, 0.05);
+  box-sizing: border-box;
+  transition: medium;
 
-    &:hover {
-      background-color: rgba(255, 255, 255, 0.08);
-    }
-  `
-)
+  &:hover {
+    background-color: rgba(255, 255, 255, 0.08);
+  }
+`
 
-export function Project({ color, title, link, children, stars, ...rest }) {
-  // alert(color)
+export function Project({ children, color, link, stars, title, ...rest }) {
   return (
-    <ProjectStyled
-      as="a"
-      href={link}
-      target="_blank"
-      rel="noopenner"
-      colorProject={color}
-      {...rest}
-    >
-      <Box as="h4" mt="0" fontWeight="600" fontSize={20} mb="xs" color={color}>
+    <Wrapper as="a" href={link} rel="noopenner" target="_blank" {...rest}>
+      <Box
+        as="h4"
+        color={color}
+        fontFamily="title"
+        fontSize={20}
+        fontWeight="600"
+        mb="xs"
+        mt="0"
+      >
         {title}
       </Box>
       {children}
-      <Box
-        display="flex"
-        alignItems="center"
-        mt="auto"
-        justifyContent="flex-end"
-        color={color}
-      >
-        {stars}
-        <Box display="flex" pl="xs" opacity="0.4" mt="-2px">
-          <StarIcon width={16} height={16} />
+      {stars !== undefined && (
+        <Box
+          alignItems="center"
+          color={color}
+          display="flex"
+          justifyContent="flex-end"
+          mt="auto"
+          pt="sm"
+        >
+          {stars}
+          <Box display="flex" mt="-2px" opacity="0.4" pl="xs">
+            <StarIcon height={16} width={16} />
+          </Box>
         </Box>
-      </Box>
-    </ProjectStyled>
+      )}
+    </Wrapper>
   )
 }

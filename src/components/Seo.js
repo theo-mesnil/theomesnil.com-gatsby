@@ -7,7 +7,7 @@
 
 import React from "react"
 import Helmet from "react-helmet"
-import { useStaticQuery, graphql } from "gatsby"
+import { graphql, useStaticQuery } from "gatsby"
 
 import ogImage from "../images/og-image.jpg"
 
@@ -39,8 +39,6 @@ export function Seo({
       htmlAttributes={{
         lang,
       }}
-      title={`${title}`}
-      titleTemplate={`%s - ${site.siteMetadata.title}`}
       meta={[
         {
           name: `description`,
@@ -97,6 +95,8 @@ export function Seo({
             : []
         )
         .concat(meta)}
+      title={`${title}`}
+      titleTemplate={`%s - ${site.siteMetadata.title}`}
     />
   )
 }

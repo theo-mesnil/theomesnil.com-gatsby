@@ -45,8 +45,8 @@ module.exports = {
             variants: [`400`, `600`],
           },
           {
-            family: `PT Serif`,
-            variants: [`400`],
+            family: `Nunito Sans`,
+            variants: [`200`],
           },
         ],
       },

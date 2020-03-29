@@ -4,14 +4,13 @@ export const openSourceProjects = [
     name: "Welcome UI",
     description:
       "Customizable design system of welcome to the jungle with react • styled-components • styled-system • reakit",
-    stars: 121,
+    stars: 124,
     color: "sub.1",
   },
   {
     repository: "theo-mesnil/react-native-sandbox-themoviedb",
     name: "Movies & Tv Shows app",
-    description:
-      "[WIP] Sandbox to play with React Native with Expo and themoviedb",
+    description: "[WIP] Sandbox to play with React Native, Expo and themoviedb",
     stars: 0,
     color: "sub.4",
   },

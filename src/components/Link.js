@@ -29,9 +29,9 @@ const LinkStyled = styled.a`
   }
 `
 
-export function Link({ children, variant, href, to, ...props }) {
+export function Link({ children, href, to, variant, ...props }) {
   return (
-    <LinkStyled as={to ? LinkGatsby : undefined} to={to} href={href} {...props}>
+    <LinkStyled as={to ? LinkGatsby : undefined} href={href} to={to} {...props}>
       {children}
     </LinkStyled>
   )

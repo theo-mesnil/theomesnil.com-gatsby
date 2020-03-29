@@ -1,8 +1,9 @@
 import React from "react"
 import { Normalize } from "styled-normalize"
-import { ThemeProvider, createGlobalStyle } from "@xstyled/styled-components"
+import { createGlobalStyle, ThemeProvider } from "@xstyled/styled-components"
 
 import { theme } from "../theme"
+
 import { Header } from "./Header"
 import { Centered } from "./Centered"
 import { Footer } from "./Footer"
@@ -17,13 +18,9 @@ const GlobalStyle = createGlobalStyle`
   body {
     background-color: dark.900;
     color: light.900;
-    font-family: title;
+    font-family: text;
     font-size: 18;
     line-height: 1.4;
-  }
-
-  img {
-    max-width: 100%;
   }
 `
 

@@ -1,11 +1,11 @@
 import React from "react"
 import { Box } from "@xstyled/styled-components"
+
 import { Layout } from "../components/layout"
 import { Title } from "../components/Title"
 import { Link } from "../components/Link"
-
-// import profilePicture from "../images/profile.jpg"
 import { openSourceProjects } from "../data/open-source-project"
+import { ressources } from "../data/ressources"
 import { Project } from "../components/Project"
 
 function Home() {
@@ -13,10 +13,10 @@ function Home() {
     <Layout title="Hi!">
       <Title>
         <>Hi!</>
-        <>I'm Théo :)</>
+        <>I‘m Théo :)</>
       </Title>
       <Box maxWidth={500} mt="xxl">
-        I'm a front-end developer based in Paris currently at{" "}
+        I‘m a front-end developer based in Paris currently at{" "}
         <Link href="https://www.welcometothejungle.com" target="_blank">
           Welcome to the jungle
         </Link>
@@ -31,27 +31,48 @@ function Home() {
         . I love to create interfaces and design system with React and Styled
         components.
       </Box>
-      {/* <Box width={200} height={200} borderRadius={100} overflow="hidden">
-        <img src={profilePicture} />
-      </Box> */}
       <Box mt={100}>
-        <Box as="h3" fontWeight="600" mt="0" mb="xl">
+        <Box as="h3" fontWeight="600" mb="xl" mt="0">
           Open source projects
         </Box>
         <Box row>
           {openSourceProjects.map(
-            ({ name, repository, description, stars, color }) => (
-              <Project
-                title={name}
+            ({ color, description, name, repository, stars }) => (
+              <Box
                 col={{ xs: 1, md: 1 / 2, lg: 1 / 3 }}
-                href={`https://github.com/${repository}`}
-                color={color}
-                stars={stars}
+                key={repository}
+                pb="md"
+                pr="md"
               >
-                {description}
-              </Project>
+                <Project
+                  color={color}
+                  href={`https://github.com/${repository}`}
+                  stars={stars}
+                  title={name}
+                >
+                  {description}
+                </Project>
+              </Box>
             )
           )}
+        </Box>
+        <Box mt="xxl">
+          <Box as="h3" fontWeight="600" mb="xl" mt="0">
+            Ressources
+          </Box>
+          <Box alignItems="stretch" row>
+            {ressources.map(({ color, description, name, repository }) => (
+              <Box col={{ xs: 1, lg: 2 / 3 }} key={repository} pb="md" pr="md">
+                <Project
+                  color={color}
+                  href={`https://theomesnil.com/demo/${repository}`}
+                  title={name}
+                >
+                  {description}
+                </Project>
+              </Box>
+            ))}
+          </Box>
         </Box>
       </Box>
     </Layout>

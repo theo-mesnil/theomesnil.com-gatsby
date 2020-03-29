@@ -1,4 +1,5 @@
 import React from "react"
+
 import { Layout } from "../components/layout"
 import { Title } from "../components/Title"
 
@@ -7,7 +8,7 @@ function Page404() {
     <Layout>
       <Title>
         <>404</>
-        <>Oup's 🙈</>
+        <>Oup‘s 🙈</>
       </Title>
     </Layout>
   )

@@ -17,10 +17,11 @@ export const theme = {
       2: "#fbcffc",
       3: "#cbe2b0",
       4: "#f19292",
+      5: "#cff1ef",
     },
   },
   fonts: {
-    text: "'PT Serif'",
+    text: "'Nunito Sans'",
     title: "'Baloo 2'",
   },
   fontWeights: {
