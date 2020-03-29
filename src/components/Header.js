@@ -11,13 +11,14 @@ import * as S from "./Header.styles"
 export function Header() {
   return (
     <Box
+      alignItems="center"
       as="header"
       backgroundColor="dark.900"
       display="flex"
       justifyContent="space-between"
-      mb="xxl"
+      pb="md"
       position="sticky"
-      pt="md"
+      pt="lg"
       top="0"
       zIndex="1"
     >

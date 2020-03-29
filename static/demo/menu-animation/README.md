@@ -4,9 +4,9 @@
 
 Simple animations on element :before for menu hover with CSS3
 
-[Demo](https://www.theomesnil.com/demo/MenuAnimation/) / [Direct Download](https://www.theomesnil.com/demo/MenuAnimation/MenuAnimation.zip)
+[Demo](https://www.theomesnil.com/demo/menu-animation/) / [Direct Download](https://www.theomesnil.com/demo/menu-animation/MenuAnimation.zip)
 
-![alt text](https://www.theomesnil.com/data/images/MenuAnimation.gif 'theomesnil.com')
+![alt text](https://www.theomesnil.com/data/images/menu-animation.gif "theomesnil.com")
 
 ## How to contribute
 
@@ -40,7 +40,7 @@ Simple animations on element :before for menu hover with CSS3
 .navigation-NEXT-NUMBER li a::before {
   height: 3px;
   background: #00a29a;
-  content: '';
+  content: "";
   position: absolute;
   bottom: 0;
   left: 0;
@@ -59,8 +59,8 @@ Simple animations on element :before for menu hover with CSS3
 
 And push to create a pull request
 
-## ![alt text](https://avatars2.githubusercontent.com/u/11488084?v=3&s=25 'theomesnil.com') About me
+## ![alt text](https://avatars2.githubusercontent.com/u/11488084?v=3&s=25 "theomesnil.com") About me
 
 Follow me on [Twitter](https://twitter.com/theomesnil) - [Github](https://github.com/mesniltheo) - [Dribbble](https://dribbble.com/theomesnil)
 
-[© Théo Mesnil - 2016](https://www.theomesnil.com)
+[© Théo Mesnil - 2020](https://www.theomesnil.com)

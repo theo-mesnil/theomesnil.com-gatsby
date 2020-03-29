@@ -50,7 +50,7 @@ export function Footer() {
         </Box>
       </Social>
       <Box alignItems="center" display="flex">
-        © {year} - Théo Mesnil
+        Théo Mesnil
         <Face>
           <MyFace alt="My face" src={profilePicture} />
         </Face>
