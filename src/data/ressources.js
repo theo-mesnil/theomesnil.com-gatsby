@@ -1,12 +1,12 @@
 export const ressources = [
   {
-    repository: "menu-animation",
+    repository: "MenuAnimation",
     name: "Menu animation",
     description: "Simple animations on element :before for menu hover.",
     color: "sub.5",
   },
   {
-    repository: "hover-block-animation",
+    repository: "HoverBlockAnimation",
     name: "Animation on block hover",
     description:
       "Animations on hover on blocks elements with background image.",

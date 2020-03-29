@@ -65,7 +65,7 @@ function Home() {
               <Box col={{ xs: 1, lg: 2 / 3 }} key={repository} pb="md" pr="md">
                 <Project
                   color={color}
-                  href={`https://theomesnil.com/demo/${repository}`}
+                  href={`https://github.com/${repository}`}
                   title={name}
                 >
                   {description}
