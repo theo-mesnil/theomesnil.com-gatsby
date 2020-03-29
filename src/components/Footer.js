@@ -29,8 +29,6 @@ const MyFace = styled.img`
 `
 
 export function Footer() {
-  const year = new Date().getFullYear()
-
   return (
     <Box
       display="flex"
