@@ -4,7 +4,7 @@
 
 Animations on hover on blocks elements with background image - made with CSS3
 
-[Demo](https://www.theomesnil.com/demo/HoverBlockAnimation/) / [Direct Download](https://www.theomesnil.com/demo/HoverBlockAnimation/HoverBlockAnimation.zip)
+[Demo](https://www.theomesnil.com/demo/hover-block-animation/) / [Direct Download](https://www.theomesnil.com/demo/hover-block-animation/HoverBlockAnimation.zip)
 
 <img src="https://github.com/mesniltheo/HoverBlockAnimation/blob/master/og-img.jpg?raw=true">
 
@@ -45,7 +45,7 @@ Animations on hover on blocks elements with background image - made with CSS3
   transition: transform 500ms;
 }
 .block-1 .block-image {
-  background-image: url('../images/block1.jpeg');
+  background-image: url("../images/block1.jpeg");
 }
 .block-1 .block-text {
   height: 100px;
@@ -93,8 +93,8 @@ And push to create a pull request
 
 Pictures from [unsplash](https://unsplash.com)
 
-## ![alt text](https://avatars2.githubusercontent.com/u/11488084?v=3&s=25 'theomesnil.com') About me
+## ![alt text](https://avatars2.githubusercontent.com/u/11488084?v=3&s=25 "theomesnil.com") About me
 
 Follow me on [Twitter](https://twitter.com/theomesnil) - [Github](https://github.com/mesniltheo) - [Dribbble](https://dribbble.com/theomesnil)
 
-[© Théo Mesnil - 2016](https://www.theomesnil.com)
+[© Théo Mesnil - 2020](https://www.theomesnil.com)
