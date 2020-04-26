@@ -4,7 +4,7 @@ export const openSourceProjects = [
     name: "Welcome UI",
     description:
       "Customizable design system of welcome to the jungle with react • styled-components • styled-system • reakit",
-    stars: 124,
+    stars: 136,
     color: "sub.1",
   },
   {
