@@ -8,9 +8,9 @@ export const openSourceProjects = [
     color: "sub.1",
   },
   {
-    repository: "theo-mesnil/react-native-sandbox-themoviedb",
-    name: "Movies & Tv Shows app",
-    description: "[WIP] Sandbox to play with React Native, Expo and themoviedb",
+    repository: "theo-mesnil/smovie",
+    name: "Smovie",
+    description: "Smovie is the simplest and fastest way to discover movies, series and actors. With React Native, Expo and themoviedb.",
     stars: 0,
     color: "sub.4",
   },
