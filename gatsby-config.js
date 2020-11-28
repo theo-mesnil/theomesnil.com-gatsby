@@ -37,18 +37,13 @@ module.exports = {
       },
     },
     {
-      resolve: `gatsby-plugin-prefetch-google-fonts`,
+      resolve: `gatsby-plugin-google-fonts`,
       options: {
         fonts: [
-          {
-            family: `Baloo 2`,
-            variants: [`400`, `600`],
-          },
-          {
-            family: `Nunito Sans`,
-            variants: [`200`],
-          },
+          `Baloo 2\:400,600`,
+          `Nunito Sans\:200`, // you can also specify font weights and styles
         ],
+        display: "swap",
       },
     },
   ],
