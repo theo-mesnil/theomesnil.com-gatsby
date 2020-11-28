@@ -4,11 +4,11 @@ export const openSourceProjects = [
     name: "Welcome UI",
     description:
       "Customizable design system of welcome to the jungle with react • styled-components • styled-system • reakit",
-    stars: 200,
+    stars: 223,
     color: "sub.1",
   },
   {
-    repository: "theo-mesnil/smovie",
+    repository: "theo-mesnil/smovie-expo",
     name: "Smovie",
     description: "Smovie is the simplest and fastest way to discover movies, series and actors. With React Native, Expo and themoviedb.",
     stars: 14,
