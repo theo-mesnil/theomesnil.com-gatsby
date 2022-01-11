@@ -8,10 +8,10 @@ export const openSourceProjects = [
     color: "sub.1",
   },
   {
-    repository: "theo-mesnil/smovie-expo",
-    name: "Smovie",
-    description: "Smovie is the simplest and fastest way to discover movies, series and actors. With React Native, Expo and themoviedb.",
-    stars: "+15",
+    repository: "theo-mesnil/WhatToWatch",
+    name: "WhatToWatch",
+    description: "The simplest and fastest way to discover movies, series and actors. With React Native, Expo and themoviedb.",
+    stars: "0",
     color: "sub.4",
   },
 ]
